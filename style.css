@@ -117,10 +117,9 @@ nav #department h1 {
 }
 nav #department #find-local {
   margin-top: 11px;
-  padding: 0 25px 0 5px;
+  padding: 0 5px;
   float: right;
   border: 1px solid rgba(255,255,255,0.3);
-  background: url("//static.bbci.co.uk/news/1.66.2287/img/news--icons-sprite.png") no-repeat right -5902px;
 }
 nav #department #find-local a {
   margin: 0;
@@ -256,11 +255,8 @@ main .main-content article p {
 article .post-data {
   display: inline-block;
   font-size: 0.8em;
-  margin: 0 0 0 -10px;
-  padding-left: 30px;
-  background-image: url("//static.bbci.co.uk/news/1.66.2287/img/news--icons-sprite.png");
-  background-position: left -4011px;
-  background-repeat: no-repeat;
+  margin: 0;
+  padding-left: 0;
 }
 article .post-data a.country {
   color: #cc0101;
