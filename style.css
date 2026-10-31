@@ -346,3 +346,40 @@ main .main-content article figcaption {
   color: #666;
   margin-top: 8px;
 }
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+/* main .main-content article .table-wrapper {
+  overflow-x: auto;
+  max-width: 100%;
+  margin: 20px 0 8px 0;
+  border: 1px solid black;
+} */
+
+main .main-content article table {
+  width: 100%;
+  max-width: 500px;
+  min-width: 360px;
+  border-collapse: collapse;
+  margin: 0;
+  font-size: 0.9em;
+}
+main .main-content article p.table-note a {
+  color: #1167a8;
+  text-decoration: underline;
+}
