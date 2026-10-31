@@ -242,9 +242,10 @@ main .main-content article h2 {
 }
 main .main-content article a:hover h2 { color: #1167a8; }
 main .main-content article p {
-  color: #5a5a5a;
-  line-height: 1.2em;
-  font-size: 0.9em;
+  color: #181818;
+  font-family: ReithSans, Helvetica, Arial, sans-serif;
+  line-height: 1.375;
+  font-size: 1rem;
 }
 article .post-data {
   display: inline-block;
@@ -342,9 +343,12 @@ main .main-content article figure img {
   height: auto;
 }
 main .main-content article figcaption {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   color: #666;
-  margin-top: 8px;
+  margin-top: 0;
+  padding: 8px 10px;
+  background: #f6f6f6;
+  border-left: 3px solid #bbb;
 }
 
 main .main-content article .table-container {
@@ -358,8 +362,9 @@ main .main-content article table {
   font-size: 0.9em;
 }
 main .main-content article caption {
-  font-size: 0.85rem;
-  color: #666;
+  font-size: 1rem;
+  color: #181818;
+  font-weight: bold;
   text-align: left;
   padding-bottom: 8px;
 }
@@ -367,7 +372,7 @@ main .main-content article th,
 main .main-content article td {
   border: 1px solid #ccc;
   padding: 8px;
-  color: #5a5a5a;
+  color: #181818;
   text-align: left;
 }
 main .main-content article th {
@@ -375,8 +380,13 @@ main .main-content article th {
   background: #f6f6f6;
 }
 
-main .main-content article p.table-note a {
-  color: #1167a8;
-  text-decoration: underline;
+main .main-content article p.table-note {
+  color: #666;
+  font-size: 0.75rem;
 }
 
+main .main-content article hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
