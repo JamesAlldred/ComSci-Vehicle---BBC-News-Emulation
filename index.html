@@ -1,269 +1,1064 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>2026 Super El Niño: What to expect in the UK this Winter</title>
-    <link rel="stylesheet" href="./style.css">
-
+    <link rel="stylesheet" href="./style.css" />
   </head>
-    
-  <body>
-  <nav>
-  <div id="logo-menu">
-    <div class="content">
-      <ul>
-        <li class="logo">
-          <a href="https://www.bbc.co.uk" target="_blank" rel="noopener noreferrer">
-            <img src="images/logo2_bbc.png" alt="BBC">
-          </a>
-        </li>
-        <li><a class="underlined" href="https://www.bbc.co.uk" target="_blank" rel="noopener noreferrer">Home</a></li>
-        
-        <!--News with CSS logo-->
-        <li>  
-          <a class="underlined" href="https://www.bbc.co.uk/news" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px;">
-            <span aria-hidden="true" style="position: relative; width: 16px; height: 16px; flex-shrink: 0; display: inline-block;">
-              <span style="position: absolute; left: 43.06%; top: 0; width: 56.94%; height: 56.94%; background: #eb0000;"></span>
-              <span style="position: absolute; left: 0; top: 35.42%; width: 35.42%; height: 36.11%; background: #d30000;"></span>
-              <span style="position: absolute; left: 43.06%; top: 64.58%; width: 21.53%; height: 35.42%; background: #b80000;"></span>
-            </span>
-            News
-          </a>
-        </li>      
-        
-        <!--Sport with CSS logo-->
-        <li>
-          <a class="underlined" href="https://www.bbc.co.uk/sport" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px;">
-            <span aria-hidden="true" style="position: relative; width: 16px; height: 16px; flex-shrink: 0; display: inline-block;">
-              <span style="position: absolute; left: 0; top: 0; width: 100%; height: 26.9%; background: #fed12c;"></span>
-              <span style="position: absolute; left: 35.96%; top: 36.56%; width: 64.04%; height: 26.9%; background: #ffb800;"></span>
-              <span style="position: absolute; left: 65%; top: 73.1%; width: 35%; height: 26.9%; background: #ff9e00;"></span>
-            </span>
-            Sport
-          </a>
-        </li>
-        
-        <!--Weather with CSS logo-->
-        <li>
-          <a class="underlined" href="https://www.bbc.co.uk/weather" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px;">
-            <span aria-hidden="true" style="position: relative; width: 16px; height: 15.64px; flex-shrink: 0; display: inline-block;">
-              <!-- Top right horizontal bar -->
-              <span style="position: absolute; left: 50%; top: 0; width: 50%; height: 23.67%; background: #149edc;"></span>
-              <!-- Middle diagonal bar -->
-              <span style="position: absolute; left: 45.88%; top: 33.53%; width: 23.05%; height: 50.35%; background: #067eb3; transform: rotate(-45deg);"></span>
-              <!-- Bottom left vertical bar -->
-              <span style="position: absolute; left: 0; top: 51.14%; width: 23.14%; height: 48.86%; background: #1969a6;"></span>
-            </span>
-            Weather
-          </a>
-        </li>
-        
-        <!--iPlayer with CSS logo-->
-        <li>
-          <a class="underlined" href="https://www.bbc.co.uk/iplayer" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px;">
-            <span aria-hidden="true" style="position: relative; width: 13.89px; height: 16px; flex-shrink: 0; display: inline-block;">
-              <!-- Upper tilted bar -->
-              <span style="position: absolute; left: 51.78%; top: -5.81%; width: 24.35%; height: 59.86%; background: #ff4c98; transform: rotate(-60deg);"></span>
-              <!-- Vertical bar -->
-              <span style="position: absolute; left: 0; top: 20.11%; width: 24.35%; height: 59.86%; background: #dc2878;"></span>
-              <!-- Lower tilted bar -->
-              <span style="position: absolute; left: 51.89%; top: 45.95%; width: 24.35%; height: 59.86%; background: #af0d5b; transform: rotate(60deg);"></span>
-            </span>
-            iPlayer
-          </a>
-        </li>
-        
-        <!--Sounds with CSS logo-->
-        <li>
-          <a class="underlined" href="https://www.bbc.co.uk/sounds" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px;">
-            <span aria-hidden="true" style="position: relative; width: 16px; height: 16px; flex-shrink: 0; display: inline-block;">
-              <!-- Small left bar -->
-              <span style="position: absolute; left: 0; top: 35.48%; width: 14.02%; height: 29.6%; background: #a13104;"></span>
-              <!-- Medium middle bar -->
-              <span style="position: absolute; left: 21.21%; top: 14.22%; width: 24.62%; height: 72.11%; background: #d24712;"></span>
-              <!-- Large right bar -->
-              <span style="position: absolute; left: 52.83%; top: 0; width: 47.17%; height: 100%; background: #fa6400;"></span>
-            </span>
-            Sounds
-          </a>
-        </li>
-        
-        <!--Bitesize with CSS logo-->
-        <li>
-          <a class="underlined" href="https://www.bbc.co.uk/bitesize" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px;">
-            <span aria-hidden="true" style="position: relative; width: 19.6px; height: 16px; flex-shrink: 0; display: inline-block;">
-              <!-- Narrow left bar -->
-              <span style="position: absolute; left: 0; top: 20.62%; width: 16.27%; height: 79.26%; background: #6100a8;"></span>
-              <!-- Middle bar -->
-              <span style="position: absolute; left: 22.75%; top: 4.76%; width: 25.87%; height: 95.11%; background: #7222c6;"></span>
-              <!-- Tilted right bar -->
-              <span style="position: absolute; left: 63.93%; top: 2.46%; width: 25.32%; height: 95.18%; background: #963ce1; transform: rotate(-16.9deg);"></span>
-            </span>
-            Bitesize
-          </a>
-        </li>
-        
-        <li class="search">
-          <div class="search-container">
-            <input type="text" placeholder="Search - Cosmetic Only" aria-label="Search - Cosmetic Only">
-            <a class="search-button" href="#">
-              <img src="images/logo1_search.png" alt="Search">
-            </a>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
 
-  <div class="red-header">
-    <div id="department">
-      <div class="content">
-        <a href="https://www.bbc.co.uk/news" target="_blank" rel="noopener noreferrer"><h1>News</h1></a>
-        <div id="find-local">
-          <a href="https://www.bbc.co.uk/news/localnews" target="_blank" rel="noopener noreferrer">
-            <p>Find local news</p>
-          </a>
+  <body>
+    <nav>
+      <div id="logo-menu">
+        <div class="content">
+          <ul>
+            <li class="logo">
+              <a
+                href="https://www.bbc.co.uk"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="images/logo2_bbc.png" alt="BBC" />
+              </a>
+            </li>
+            <li>
+              <a
+                class="underlined"
+                href="https://www.bbc.co.uk"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Home</a
+              >
+            </li>
+
+            <!--News with CSS logo-->
+            <li>
+              <a
+                class="underlined"
+                href="https://www.bbc.co.uk/news"
+                target="_blank"
+                rel="noopener noreferrer"
+                style="display: inline-flex; align-items: center; gap: 6px"
+              >
+                <span
+                  aria-hidden="true"
+                  style="
+                    position: relative;
+                    width: 16px;
+                    height: 16px;
+                    flex-shrink: 0;
+                    display: inline-block;
+                  "
+                >
+                  <span
+                    style="
+                      position: absolute;
+                      left: 43.06%;
+                      top: 0;
+                      width: 56.94%;
+                      height: 56.94%;
+                      background: #eb0000;
+                    "
+                  ></span>
+                  <span
+                    style="
+                      position: absolute;
+                      left: 0;
+                      top: 35.42%;
+                      width: 35.42%;
+                      height: 36.11%;
+                      background: #d30000;
+                    "
+                  ></span>
+                  <span
+                    style="
+                      position: absolute;
+                      left: 43.06%;
+                      top: 64.58%;
+                      width: 21.53%;
+                      height: 35.42%;
+                      background: #b80000;
+                    "
+                  ></span>
+                </span>
+                News
+              </a>
+            </li>
+
+            <!--Sport with CSS logo-->
+            <li>
+              <a
+                class="underlined"
+                href="https://www.bbc.co.uk/sport"
+                target="_blank"
+                rel="noopener noreferrer"
+                style="display: inline-flex; align-items: center; gap: 6px"
+              >
+                <span
+                  aria-hidden="true"
+                  style="
+                    position: relative;
+                    width: 16px;
+                    height: 16px;
+                    flex-shrink: 0;
+                    display: inline-block;
+                  "
+                >
+                  <span
+                    style="
+                      position: absolute;
+                      left: 0;
+                      top: 0;
+                      width: 100%;
+                      height: 26.9%;
+                      background: #fed12c;
+                    "
+                  ></span>
+                  <span
+                    style="
+                      position: absolute;
+                      left: 35.96%;
+                      top: 36.56%;
+                      width: 64.04%;
+                      height: 26.9%;
+                      background: #ffb800;
+                    "
+                  ></span>
+                  <span
+                    style="
+                      position: absolute;
+                      left: 65%;
+                      top: 73.1%;
+                      width: 35%;
+                      height: 26.9%;
+                      background: #ff9e00;
+                    "
+                  ></span>
+                </span>
+                Sport
+              </a>
+            </li>
+
+            <!--Weather with CSS logo-->
+            <li>
+              <a
+                class="underlined"
+                href="https://www.bbc.co.uk/weather"
+                target="_blank"
+                rel="noopener noreferrer"
+                style="display: inline-flex; align-items: center; gap: 6px"
+              >
+                <span
+                  aria-hidden="true"
+                  style="
+                    position: relative;
+                    width: 16px;
+                    height: 15.64px;
+                    flex-shrink: 0;
+                    display: inline-block;
+                  "
+                >
+                  <!-- Top right horizontal bar -->
+                  <span
+                    style="
+                      position: absolute;
+                      left: 50%;
+                      top: 0;
+                      width: 50%;
+                      height: 23.67%;
+                      background: #149edc;
+                    "
+                  ></span>
+                  <!-- Middle diagonal bar -->
+                  <span
+                    style="
+                      position: absolute;
+                      left: 45.88%;
+                      top: 33.53%;
+                      width: 23.05%;
+                      height: 50.35%;
+                      background: #067eb3;
+                      transform: rotate(-45deg);
+                    "
+                  ></span>
+                  <!-- Bottom left vertical bar -->
+                  <span
+                    style="
+                      position: absolute;
+                      left: 0;
+                      top: 51.14%;
+                      width: 23.14%;
+                      height: 48.86%;
+                      background: #1969a6;
+                    "
+                  ></span>
+                </span>
+                Weather
+              </a>
+            </li>
+
+            <!--iPlayer with CSS logo-->
+            <li>
+              <a
+                class="underlined"
+                href="https://www.bbc.co.uk/iplayer"
+                target="_blank"
+                rel="noopener noreferrer"
+                style="display: inline-flex; align-items: center; gap: 6px"
+              >
+                <span
+                  aria-hidden="true"
+                  style="
+                    position: relative;
+                    width: 13.89px;
+                    height: 16px;
+                    flex-shrink: 0;
+                    display: inline-block;
+                  "
+                >
+                  <!-- Upper tilted bar -->
+                  <span
+                    style="
+                      position: absolute;
+                      left: 51.78%;
+                      top: -5.81%;
+                      width: 24.35%;
+                      height: 59.86%;
+                      background: #ff4c98;
+                      transform: rotate(-60deg);
+                    "
+                  ></span>
+                  <!-- Vertical bar -->
+                  <span
+                    style="
+                      position: absolute;
+                      left: 0;
+                      top: 20.11%;
+                      width: 24.35%;
+                      height: 59.86%;
+                      background: #dc2878;
+                    "
+                  ></span>
+                  <!-- Lower tilted bar -->
+                  <span
+                    style="
+                      position: absolute;
+                      left: 51.89%;
+                      top: 45.95%;
+                      width: 24.35%;
+                      height: 59.86%;
+                      background: #af0d5b;
+                      transform: rotate(60deg);
+                    "
+                  ></span>
+                </span>
+                iPlayer
+              </a>
+            </li>
+
+            <!--Sounds with CSS logo-->
+            <li>
+              <a
+                class="underlined"
+                href="https://www.bbc.co.uk/sounds"
+                target="_blank"
+                rel="noopener noreferrer"
+                style="display: inline-flex; align-items: center; gap: 6px"
+              >
+                <span
+                  aria-hidden="true"
+                  style="
+                    position: relative;
+                    width: 16px;
+                    height: 16px;
+                    flex-shrink: 0;
+                    display: inline-block;
+                  "
+                >
+                  <!-- Small left bar -->
+                  <span
+                    style="
+                      position: absolute;
+                      left: 0;
+                      top: 35.48%;
+                      width: 14.02%;
+                      height: 29.6%;
+                      background: #a13104;
+                    "
+                  ></span>
+                  <!-- Medium middle bar -->
+                  <span
+                    style="
+                      position: absolute;
+                      left: 21.21%;
+                      top: 14.22%;
+                      width: 24.62%;
+                      height: 72.11%;
+                      background: #d24712;
+                    "
+                  ></span>
+                  <!-- Large right bar -->
+                  <span
+                    style="
+                      position: absolute;
+                      left: 52.83%;
+                      top: 0;
+                      width: 47.17%;
+                      height: 100%;
+                      background: #fa6400;
+                    "
+                  ></span>
+                </span>
+                Sounds
+              </a>
+            </li>
+
+            <!--Bitesize with CSS logo-->
+            <li>
+              <a
+                class="underlined"
+                href="https://www.bbc.co.uk/bitesize"
+                target="_blank"
+                rel="noopener noreferrer"
+                style="display: inline-flex; align-items: center; gap: 6px"
+              >
+                <span
+                  aria-hidden="true"
+                  style="
+                    position: relative;
+                    width: 19.6px;
+                    height: 16px;
+                    flex-shrink: 0;
+                    display: inline-block;
+                  "
+                >
+                  <!-- Narrow left bar -->
+                  <span
+                    style="
+                      position: absolute;
+                      left: 0;
+                      top: 20.62%;
+                      width: 16.27%;
+                      height: 79.26%;
+                      background: #6100a8;
+                    "
+                  ></span>
+                  <!-- Middle bar -->
+                  <span
+                    style="
+                      position: absolute;
+                      left: 22.75%;
+                      top: 4.76%;
+                      width: 25.87%;
+                      height: 95.11%;
+                      background: #7222c6;
+                    "
+                  ></span>
+                  <!-- Tilted right bar -->
+                  <span
+                    style="
+                      position: absolute;
+                      left: 63.93%;
+                      top: 2.46%;
+                      width: 25.32%;
+                      height: 95.18%;
+                      background: #963ce1;
+                      transform: rotate(-16.9deg);
+                    "
+                  ></span>
+                </span>
+                Bitesize
+              </a>
+            </li>
+
+            <li class="search">
+              <div class="search-container">
+                <input
+                  type="text"
+                  placeholder="Search - Cosmetic Only"
+                  aria-label="Search - Cosmetic Only"
+                />
+                <a class="search-button" href="#">
+                  <img src="images/logo1_search.png" alt="Search" />
+                </a>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
 
-    <div id="primary-nav">
-      <div class="content">
-        <ul>
-          <li><a class="underlined" href="https://www.bbc.co.uk" target="_blank" rel="noopener noreferrer"><span>Home</span></a></li>
-          <li><a class="underlined" href="https://www.bbc.co.uk/news/uk" target="_blank" rel="noopener noreferrer">UK</a></li>
-          <li><a class="underlined" href="https://www.bbc.co.uk/news/world" target="_blank" rel="noopener noreferrer">World</a></li>
-          <li><a class="underlined" href="https://www.bbc.co.uk/news/business" target="_blank" rel="noopener noreferrer">Business</a></li>
-          <li><a class="underlined" href="https://www.bbc.co.uk/news/entertainment_and_arts" target="_blank" rel="noopener noreferrer">Culture</a></li>
-          <li><a class="underlined" href="https://www.bbc.co.uk/news/politics" target="_blank" rel="noopener noreferrer">Politics</a></li>
-          <li><a class="underlined" href="https://www.bbc.co.uk/news/health" target="_blank" rel="noopener noreferrer">Health</a></li>
-          <li><a class="underlined" href="https://www.bbc.co.uk/news/technology" target="_blank" rel="noopener noreferrer">Tech</a></li>
-          <li><a class="underlined" href="https://www.bbc.co.uk/news/bbcindepth" target="_blank" rel="noopener noreferrer">InDepth</a></li>
-          <li><a class="underlined" href="https://www.bbc.co.uk/news/bbcverify" target="_blank" rel="noopener noreferrer">BBC Verify</a></li>
-          <li><a class="underlined active" href="https://www.bbc.co.uk/news/topics/cmj34zmwm1zt" target="_blank" rel="noopener noreferrer">Climate</a></li>
-        </ul>
+      <div class="red-header">
+        <div id="department">
+          <div class="content">
+            <a
+              href="https://www.bbc.co.uk/news"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><h1>News</h1></a
+            >
+            <div id="find-local">
+              <a
+                href="https://www.bbc.co.uk/news/localnews"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p>Find local news</p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div id="primary-nav">
+          <div class="content">
+            <ul>
+              <li>
+                <a
+                  class="underlined"
+                  href="https://www.bbc.co.uk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><span>Home</span></a
+                >
+              </li>
+              <li>
+                <a
+                  class="underlined"
+                  href="https://www.bbc.co.uk/news/uk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >UK</a
+                >
+              </li>
+              <li>
+                <a
+                  class="underlined"
+                  href="https://www.bbc.co.uk/news/world"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >World</a
+                >
+              </li>
+              <li>
+                <a
+                  class="underlined"
+                  href="https://www.bbc.co.uk/news/business"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Business</a
+                >
+              </li>
+              <li>
+                <a
+                  class="underlined"
+                  href="https://www.bbc.co.uk/news/entertainment_and_arts"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Culture</a
+                >
+              </li>
+              <li>
+                <a
+                  class="underlined"
+                  href="https://www.bbc.co.uk/news/politics"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Politics</a
+                >
+              </li>
+              <li>
+                <a
+                  class="underlined"
+                  href="https://www.bbc.co.uk/news/health"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Health</a
+                >
+              </li>
+              <li>
+                <a
+                  class="underlined"
+                  href="https://www.bbc.co.uk/news/technology"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Tech</a
+                >
+              </li>
+              <li>
+                <a
+                  class="underlined"
+                  href="https://www.bbc.co.uk/news/bbcindepth"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >InDepth</a
+                >
+              </li>
+              <li>
+                <a
+                  class="underlined"
+                  href="https://www.bbc.co.uk/news/bbcverify"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >BBC Verify</a
+                >
+              </li>
+              <li>
+                <a
+                  class="underlined active"
+                  href="https://www.bbc.co.uk/news/topics/cmj34zmwm1zt"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Climate</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  </nav>
+    </nav>
 
-<main>
-  <div class="content">
-    <div class="main-content">
-      <article class="full-width">
-          <h2>2026 Super El Niño: What to expect in the UK this Winter.</h2>
-            <p class="post-data">Published 14 October 2026 | 11538036, The University of Manchester</p>
+    <main>
+      <div class="content">
+        <div class="main-content">
+          <article class="full-width">
+            <h2>2026 Super El Niño: What to expect in the UK this Winter.</h2>
+            <p class="post-data">
+              Published 14 October 2026 | 11538036, The University of Manchester
+            </p>
             <figure>
-            <img src="images/fig1_title_image.png" alt="Wet weather storm imagery">
-            <figcaption>Figure 1: An example of storms more likely to occur during an El Niño event.</figcaption>
+              <img
+                src="images/fig1_title_image.webp"
+                alt="Wet weather storm imagery"
+              />
+              <figcaption>
+                <strong>Figure 1:</strong> An example of flooding likely to
+                occur during an El Niño event (BBC News, 2016).
+              </figcaption>
             </figure>
 
-            <p>A Super El Niño is set to bring heavy rain and storms to the UK this December, with the potential to continue into late winter.</p>
-          <hr>
+            <p>
+              A Super El Niño is set to bring heavy rain and storms to the UK
+              this December, with the potential to continue into late winter.
+            </p>
+            <hr />
 
-          <h3>What actually is an “El Nino”?</h3>
-            <p>El Niño is the warm phase of a naturally occurring climate cycle known as the El Niño-Southern Oscillation (ENSO). Caused by ongoing oceanic and atmospheric processes, the cycle usually lasts between three to seven years, involving three stages: El Niño, La Niña and ENSO-neutral.</p>
-            <p>Different regions across the globe respond uniquely to each stage. Generally, a northern European El Niño winter brings mild, wet and stormy conditions during the early winter (November-December), before shifting to colder, more settled weather later in the season. However, the very strongest El Niño events have been known to avoid this intraseasonal shift by triggering different atmospheric wave patterns, maintaining stormy weather and preventing the usual late-winter Arctic freeze in the UK.</p>
-          <hr>
+            <h3>What actually is an “El Nino”?</h3>
+            <p>
+              El Niño is the warm phase of a naturally occurring climate cycle
+              known as the El Niño-Southern Oscillation (ENSO). Caused by
+              ongoing oceanic and atmospheric processes, the cycle usually lasts
+              between three to seven years, involving three stages: El Niño, La
+              Niña and ENSO-neutral.
+            </p>
+            <p>
+              Different regions across the globe respond uniquely to each stage.
+              Generally, a northern European El Niño winter brings mild, wet and
+              stormy conditions during the early winter (November-December),
+              before shifting to colder, more settled weather later in the
+              season. However, the very strongest El Niño events have been known
+              to avoid this intraseasonal shift by triggering different
+              atmospheric wave patterns, maintaining stormy weather and
+              preventing the usual late-winter Arctic freeze in the UK.
+            </p>
+            <hr />
 
-          <h3>Why does El Niño happen, and what makes this one “super”?</h3>
-            <p>The ENSO cycle depends on wind patterns and sea surface temperatures across the tropical Pacific Ocean. Under normal conditions, trade winds blow from east to west, pushing warm surface water towards Australia and Indonesia. During an El Niño event, atmospheric pressure shifts cause these winds to reverse direction and blow from the west, allowing warm water to build up along the coast of South America instead. This change ocean surface heat alters atmospheric convection, leading to changes in global weather patterns, as shown in Figure 2 (How El Niño forms, 2017).</p>
-            
-            <figure>
-              <img src="images/fig2_trade_wind_reversal.png" alt="Visualisation of trade wind reversal during an El Niño event">
-              <figcaption>Figure 2: Trade wind reversal during El Niño. Have a look at how the hot water moving to South America causes clouds to form in that region. This is the beginning of the changes in global climate during El Niño.</figcaption>
-            </figure>
-
-            <p>To monitor the ENSO cycle, scientists measure sea surface temperatures across a region of the Pacific known as Niño3, shown in Figure 3. Temperature differences compared to long-term averages are called “anomalies”. The size of this anomaly indicates how severe global weather disruptions are likely to be, summarised in Table 1.</p>
-            
-          <div class="table-container"> 
-            <table>
-              <caption>Table 1: Niño3 SST anomalies* and their corresponding El Niño intensities</caption>
-              <thead>
-                <tr>
-                  <th scope="col">Intensity</th>
-                  <th scope="col">Niño3 SST anomaly (°C)</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Weak</td>
-                  <td>&lt; 0.83</td>
-                </tr>
-                <tr>
-                  <td>Moderate</td>
-                  <td>0.83 &lt; Niño3 &lt; 1.5</td>
-                </tr>
-                <tr>
-                  <td>Strong</td>
-                  <td>&gt; 1.5</td>
-                </tr>
-              </tbody>
-            </table>
-          </div> 
-            <p class="table-note">*Anomaly threshold for the other stages of the ENSO cycle can be found at <a href="PASTE_URL_HERE" target="_blank" rel="noopener noreferrer">PASTE_LINK_TEXT_HERE</a>.</p>
+            <h3>Why does El Niño happen, and what makes this one “super”?</h3>
+            <p>
+              The ENSO cycle depends on wind patterns and sea surface
+              temperatures across the tropical Pacific Ocean. Under normal
+              conditions, trade winds blow from east to west, pushing warm
+              surface water towards Australia and Indonesia. During an El Niño
+              event, atmospheric pressure shifts cause these winds to reverse
+              direction and blow from the west, allowing warm water to build up
+              along the coast of South America instead. This change ocean
+              surface heat alters atmospheric convection, leading to changes in
+              global weather patterns, as shown in Figure 2 (How El Niño forms,
+              2017).
+            </p>
 
             <figure>
-              <img src="images/fig3_nino3.png" alt="Map of the tropical Pacific marking the Niño 1+2, Niño 3, Niño 3.4 and Niño 4 regions">
-              <figcaption>Figure 3: The different regions of the Pacific where SSTs are measured by the National Oceanic and Atmospheric Administration (NOAA) to monitor the ENSO cycle. Modern calculations tend to use the Niño3.4 region to define official ENSO events, however Niño3 is most relevant in this case to allow historical comparison (National Oceanic and Atmospheric Administration, 2026b).</figcaption>
-            
+              <img
+                src="images/fig2_trade_wind_reversal.png"
+                alt="Visualisation of trade wind reversal during an El Niño event"
+              />
+              <figcaption>
+                <strong>Figure 2:</strong> Trade wind reversal during El Niño.
+                Have a look at how the hot water moving to South America causes
+                clouds to form in that region. This is the beginning of the
+                changes in global climate during El Niño.
+              </figcaption>
             </figure>
-            
-            <p>As of October 2026, the Niño3 region recorded a monthly average anomaly of +3.25°C, making it the highest recorded warming value for any El Niño season. NOAA forecasts this ocean warming to peak in December, as shown in Figure 4, suggesting the most active UK storm period will occur during early winter.</p>
-            
+
+            <p>
+              To monitor the ENSO cycle, scientists measure sea surface
+              temperatures across a region of the Pacific known as Niño3, shown
+              in Figure 3. Temperature differences compared to long-term
+              averages are called “anomalies”. The size of this anomaly
+              indicates how severe global weather disruptions are likely to be,
+              summarised in Table 1.
+            </p>
+
+            <div class="table-container">
+              <table>
+                <caption>
+                  Table 1: Niño3 SST anomalies* and their corresponding El Niño
+                  intensities
+                </caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Intensity</th>
+                    <th scope="col">Niño3 SST anomaly (°C)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Weak</td>
+                    <td>&lt; 0.83</td>
+                  </tr>
+                  <tr>
+                    <td>Moderate</td>
+                    <td>0.83 &lt; Niño3 &lt; 1.5</td>
+                  </tr>
+                  <tr>
+                    <td>Strong</td>
+                    <td>&gt; 1.5</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="table-note">
+              *Anomaly threshold for the other stages of the ENSO cycle can be
+              found at
+              <a href="PASTE_URL_HERE" target="_blank" rel="noopener noreferrer"
+                >PASTE_LINK_TEXT_HERE</a
+              >.
+            </p>
+
             <figure>
-              <img src="images/fig4_anomaly_forecast.png" alt="Graph showing the predicted Niño3 anomalies for winter 2026, with observed values approaching a 4°C anomaly and NOAA's model prediction peaking in December.">
-              <figcaption>Figure 4: Predicted Niño3 anomalies for winter 2026. The black line shows observed values, currently approaching a 4°C anomaly (plotted as +4K on NOAA charts). Follow the dark blue line to see the average prediction from NOAAs models, peaking in December as expected (National Oceanic and Atmospheric Administration, 2026a).</figcaption>
+              <img
+                src="images/fig3_nino3.png"
+                alt="Map of the tropical Pacific marking the Niño 1+2, Niño 3, Niño 3.4 and Niño 4 regions"
+              />
+              <figcaption>
+                <strong>Figure 3:</strong> The different regions of the Pacific
+                where SSTs are measured by the National Oceanic and Atmospheric
+                Administration (NOAA) to monitor the ENSO cycle. Modern
+                calculations tend to use the Niño3.4 region to define official
+                ENSO events, however Niño3 is most relevant in this case to
+                allow historical comparison (National Oceanic and Atmospheric
+                Administration, 2026b).
+              </figcaption>
             </figure>
-          <hr>  
-          
-          
-          
-          <h3>Reference list</h3>
-        
-      </article>
-    </div><!--
-    --><div class="sidebar">
-      <h2>Extra information, if you're interested</h2>
-      <article style="background-color: #f6f6f6; margin-bottom: 20px; border-bottom: none;">
-        <a href="https://www.bbc.co.uk/weather/articles/cmlye0d7q7zno" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
-          <div style="width: 100%; overflow: hidden;">
-            <img src="images/side1_real_BBC.png" alt="Hurricane flooding in Mexico" style="width: 100%; height: 180px; object-fit: cover; display: block;">
-          </div>
-          <div style="padding: 12px 14px 16px 14px;">
-            <h3 style="font-size: 1.05rem; font-weight: bold; line-height: 1.3; margin: 0 0 8px 0; color: #222;">Super El Niño sets another record as it strengthens to 'unprecedented levels'</h3>
-            <p class="post-data" style="margin: 0;">Real BBC article on ENSO</p>
-          </div>
-        </a>
-      </article>
-      <article style="background-color: #f6f6f6; margin-bottom: 20px; border-bottom: none;">
-        <a href="supporting_documents/11538036%20ENSO%20report.pdf" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
-          <div style="width: 100%; overflow: hidden;">
-            <img src="images/side2_ENSO_report_image.png" alt="ENSO Cloud Cover Patterns" style="width: 100%; height: 180px; object-fit: cover; display: block;">
-          </div>
-          <div style="padding: 12px 14px 16px 14px;">
-            <h3 style="font-size: 1.05rem; font-weight: bold; line-height: 1.3; margin: 0 0 8px 0; color: #222;">How does the El Niño Southern Oscillation affect different types of cloud cover in the Maritime Continent and the Niño 3.4 region?</h3>
-            <p class="post-data" style="margin: 0;">Second Year ENSO Project</p>
-          </div>
-        </a>
-      </article>
-      <article style="background-color: #f6f6f6; margin-bottom: 20px; border-bottom: none;">
-        <a href="https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/wea.4069" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit; display: block;">
-          <div style="width: 100%; overflow: hidden;">
-            <img src="images/side3_arctic_sea_ice.png" alt="Effects of Arctic Sea Ice Loss" style="width: 100%; height: 180px; object-fit: cover; display: block;">
-          </div>
-          <div style="padding: 12px 14px 16px 14px;">
-            <h3 style="font-size: 1.05rem; font-weight: bold; line-height: 1.3; margin: 0 0 8px 0; color: #222;">An ice-free Arctic: what could it mean for European weather?</h3>
-            <p class="post-data" style="margin: 0;">Another global factor potentially influencing UK weather</p>
-          </div>
-        </a>
-      </article> 
-    </div>
-  </div>
-</main>
-    
+
+            <p>
+              As of October 2026, the Niño3 region recorded a monthly average
+              anomaly of +3.25°C, making it the highest recorded warming value
+              for any El Niño season. NOAA forecasts this ocean warming to peak
+              in December, as shown in Figure 4, suggesting the most active UK
+              storm period will occur during early winter.
+            </p>
+
+            <figure>
+              <img
+                src="images/fig4_anomaly_forecast.png"
+                alt="Graph showing the predicted Niño3 anomalies for winter 2026, with observed values approaching a 4°C anomaly and NOAA's model prediction peaking in December."
+              />
+              <figcaption>
+                <strong>Figure 4:</strong> Predicted Niño3 anomalies for winter
+                2026. The black line shows observed values, currently
+                approaching a 4°C anomaly (plotted as +4K on NOAA charts).
+                Follow the dark blue line to see the average prediction from
+                NOAAs models, peaking in December as expected (National Oceanic
+                and Atmospheric Administration, 2026a).
+              </figcaption>
+            </figure>
+            <hr />
+
+            <h3>
+              What happened during historical strong El Niño events, and how
+              good were our predictions?
+            </h3>
+            <p>
+              The UK has experienced several strong El Niño events in living
+              memory. Going back to Table 1, a strong El Niño has an SST anomaly
+              in Niño3 of at least 1.5°C. Notable El Niño events include 2023/24
+              and 2015/16.
+            </p>
+            <p>
+              So how do scientists predict El Niño events? To make an accurate
+              weather forecast, two things need to be known (Bjerknes, 1904):
+            </p>
+            <ol>
+              <li>The precise initial state of the atmosphere</li>
+              <li>The physical laws controlling how the atmosphere behaves.</li>
+            </ol>
+            <p>
+              Making the forecast therefore begins with the Niño3 temperature
+              measurements, alongside a large volume of weather data collected
+              with various instruments around the globe [Maybe
+              radiosonde/aircraft link – David schultz]. This information is
+              then given to a computer model, which runs the physics
+              calculations to try and make predictions. An important point about
+              the reliability of this process is high resolution (zoomed-in)
+              predictions further into the future areas quickly become
+              inaccurate. The most reliable forecasts are low resolution (zoomed
+              out), short-term estimates. This make exactly predicting the UK
+              weather multiple weeks to months at a time difficult, as the UK is
+              not a large area on a global scale.
+            </p>
+            <p>
+              The Met Office uses a seasonal forecast system called GloSea6
+              (GS6). Other institutions use their own versions. The details of
+              the models are not important, but if you see “ensemble mean”
+              anywhere in a figure or text, it just means the result is the
+              combination of lots of models run on the same information to try
+              and improve accuracy.
+            </p>
+            <p>
+              Models are tested using a technique called hindcasting, where they
+              are run backwards in time to see how close they get to values we
+              already know. Their future predictions are also compared to real
+              world observations once they occur, using large datasets called
+              HadUK, HadISST and ERA5. Once again, the details of the datasets
+              are inconsequential, as long as it’s understood that forecasts are
+              tested against real data once we know it.
+            </p>
+            <figure>
+              <img
+                src="images/fig5_met_forecast.jpg"
+                alt="Met Office predictions and observations for 2023 and 2024."
+              />
+              <figcaption>
+                <strong>Figure 5:</strong> The Met Office forecast for December
+                – January – February (DJF) 2023/24.
+                <span class="cap-line"
+                  ><strong>(a)</strong> Shows an increased likelihood of mild
+                  (1.5× normal chance), wet (1.3×), and windy (1.3×) weather.
+                  This aligns with the strong El Niño pattern outlined earlier,
+                  where storminess dominates throughout the season instead of
+                  shifting to cold, clear weather.</span
+                >
+                <span class="cap-line"
+                  ><strong>(b)</strong> Compares the forecast likeliness (solid
+                  curve with grey shading) against historical averages (dashed
+                  grey curve). The solid black vertical line marks the actual
+                  recorded outcome, demonstrating how closely the model
+                  anticipated the mild, wet, and windy conditions.</span
+                >
+              </figcaption>
+            </figure>
+            <p>
+              The 2023/24 event is an excellent case study for evaluating how
+              well modern technology predicts El Niño impacts. Niño3 warming of
+              1.7°C over the DJF period defined it as a strong El Niño. As
+              Figure 5 shows, the Met Office’s predictions were close to what
+              actually happened, forecasting a milder, wetter winter, despite
+              slightly overpredicting the chance of calm winds.
+            </p>
+            <p>
+              Although the models successfully estimated the general impacts,
+              some key details were missed. The weather patterns bringing mild,
+              wet, and stormy conditions travelled further south than the
+              ensemble mean forecast suggested, contributing to the warmest
+              February on record for England and Wales, and the wettest for
+              southern England. These differences mainly amount to the fact that
+              the atmosphere is an incredibly complex system, influenced by many
+              combinations of factors alongside El Niño.
+            </p>
+            <p>
+              The impacts of the 2023/24 event were widespread across the UK.
+              Flooding, transport disruption, power outages, and agricultural
+              damage affected the nation. Over the extended winter season
+              (October to March) there were 9 named storms, as shown in Table 2,
+              which was second only to the 11 named storms in 2015/16 (Kew et
+              al., 2024).
+            </p>
+
+            <div class="table-container">
+              <table>
+                <caption>
+                  Table 2: Named Storms from Oct-Mar 2023/24
+                </caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Date of UK/Ireland/Netherlands Impact</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Babet</td>
+                    <td>18-21 October 2023</td>
+                  </tr>
+                  <tr>
+                    <td>Ciarán</td>
+                    <td>1-2 November 2023</td>
+                  </tr>
+                  <tr>
+                    <td>Debi</td>
+                    <td>13 November 2023</td>
+                  </tr>
+                  <tr>
+                    <td>Elin</td>
+                    <td>9 December 2023</td>
+                  </tr>
+                  <tr>
+                    <td>Fergus</td>
+                    <td>10 December 2023</td>
+                  </tr>
+                  <tr>
+                    <td>Gerrit</td>
+                    <td>27-28 December 2023</td>
+                  </tr>
+                  <tr>
+                    <td>Henk</td>
+                    <td>2 January 2024</td>
+                  </tr>
+                  <tr>
+                    <td>Isha</td>
+                    <td>21-22 January 2024</td>
+                  </tr>
+                  <tr>
+                    <td>Jocelyn</td>
+                    <td>23-24 January 2024</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p>
+              Although 2023/24 is the most recent strong El Niño, the Niño3
+              region warmed by “only” 1.7 °C during DJF. Whilst this still
+              classifies it as a strong event, 2026 is already at a
+              record-breaking 3.25°C and is expected to continue rising until it
+              peaks in December [fig4 link]. Because of this extreme warming,
+              2015/16 may be more comparable to what we might see this winter,
+              still being a relatively recent occurrence whilst having a with
+              higher peak Niño3 warming of around 2.5°C, shown in Figure 6
+              [link].
+            </p>
+
+            <figure>
+              <img
+                src="images/fig6_years_anomalies.png"
+                alt="Map of winter sea surface temperature patterns and time series of Niño3 anomalies across different years"
+              />
+              <figcaption>
+                <strong>Figure 6:</strong> 2023/24 winter sea surface
+                temperature patterns and Niño3 anomalies across different years.
+                <span class="cap-line"
+                  ><strong>(a)</strong> The Met Office's ensemble mean
+                  forecast.</span
+                >
+                <span class="cap-line"
+                  ><strong>(b)</strong> Actual recorded observations.</span
+                >
+                <span class="cap-line"
+                  ><strong>(c)</strong> SST anomalies from June to April for
+                  strong (colours) and moderate (grey) El Niño events since
+                  1950. Observations for 2023/24 are shown in black, while the
+                  ensemble mean forecast (initialised in November) is shown in
+                  red. The dashed grey line at 1.5°C marks the boundary between
+                  ‘moderate’ and ‘strong’ El Niño.</span
+                >
+              </figcaption>
+            </figure>
+
+            <p>
+              The 2015/16 El Niño caused an exceptional winter across the UK and
+              Ireland, breaking numerous climate records and bringing
+              high-impact weather events that caused considerable disruption
+              from flooding and high winds. A succession of winter storms
+              tracked across the region, bringing persistent rainfall including
+              the highest 24-hour and 48-hour rainfall accumulations on record
+              during storm Desmond from 4 to 6 December. Temperatures were also
+              exceptionally mild through much of December and in late January,
+              consistent with the theme of especially strong El Niños avoiding
+              the intraseasonal shift to colder, clearer weather. Figure 7 shows
+              the precipitation and temperature anomalies across the UK and
+              Ireland from December to February.
+            </p>
+
+            <figure>
+              <img
+                src="images/fig7_2015_precip_temp.png"
+                alt="Map of precipitation and temperature anomalies across the UK and Ireland from December to February"
+              />
+              <figcaption>
+                <strong>Figure 7: (a)</strong> Precipitation and
+                <strong>(b)</strong> temperature anomalies across the UK and
+                Ireland.
+                <span class="cap-line"
+                  >The unusually wet and mild conditions are clearly visible.
+                  The north-west of the UK was severely affected by excess
+                  rainfall, whereas the south of England saw the greatest
+                  temperature increases above average. Broken down by month,
+                  both anomalies were strongest in December, coinciding with the
+                  peak Niño3 warming (McCarthy et al., 2016).</span
+                >
+              </figcaption>
+            </figure>
+
+            <p>
+              One of the worst affected areas during the 2015/16 winter was
+              Cockermouth, Cumbria. On the 5th of December 2015, 36 hours of
+              intense rainfall led to nearly five metres of flooding after local
+              defences failed, damaging nearly 500 properties and causing at
+              least one loss of life. The excess rainfall is visible in Figure
+              7, where north-west England experienced over 200% of the average
+              rainfall usually seen between December and February (BBC News,
+              2016).
+            </p>
+
+            <p>
+              One of the worst-affected areas during the 2015/16 winter was
+              Cockermouth, Cumbria. On 5 December 2015, 36 hours of intense
+              rainfall led to nearly five metres of flooding after local
+              defences failed, damaging almost 500 properties and causing at
+              least one loss of life. This extreme excess rainfall is clearly
+              visible in Figure 7, which shows that north-west England
+              experienced over 200% of the average precipitation typically seen
+              between December and February (BBC News, 2016).
+            </p>
+
+            <h3>Reference list</h3>
+          </article>
+        </div>
+        <div class="sidebar">
+          <h2>Extra information, if you're interested</h2>
+          <article
+            style="
+              background-color: #f6f6f6;
+              margin-bottom: 20px;
+              border-bottom: none;
+            "
+          >
+            <a
+              href="https://www.bbc.co.uk/weather/articles/cmlye0d7q7zno"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="text-decoration: none; color: inherit; display: block"
+            >
+              <div style="width: 100%; overflow: hidden">
+                <img
+                  src="images/side1_real_BBC.png"
+                  alt="Hurricane flooding in Mexico"
+                  style="
+                    width: 100%;
+                    height: 180px;
+                    object-fit: cover;
+                    display: block;
+                  "
+                />
+              </div>
+              <div style="padding: 12px 14px 16px 14px">
+                <h3
+                  style="
+                    font-size: 1.05rem;
+                    font-weight: bold;
+                    line-height: 1.3;
+                    margin: 0 0 8px 0;
+                    color: #222;
+                  "
+                >
+                  Super El Niño sets another record as it strengthens to
+                  'unprecedented levels'
+                </h3>
+                <p class="post-data" style="margin: 0">
+                  Real BBC article on ENSO
+                </p>
+              </div>
+            </a>
+          </article>
+          <article
+            style="
+              background-color: #f6f6f6;
+              margin-bottom: 20px;
+              border-bottom: none;
+            "
+          >
+            <a
+              href="supporting_documents/11538036%20ENSO%20report.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="text-decoration: none; color: inherit; display: block"
+            >
+              <div style="width: 100%; overflow: hidden">
+                <img
+                  src="images/side2_ENSO_report_image.png"
+                  alt="ENSO Cloud Cover Patterns"
+                  style="
+                    width: 100%;
+                    height: 180px;
+                    object-fit: cover;
+                    display: block;
+                  "
+                />
+              </div>
+              <div style="padding: 12px 14px 16px 14px">
+                <h3
+                  style="
+                    font-size: 1.05rem;
+                    font-weight: bold;
+                    line-height: 1.3;
+                    margin: 0 0 8px 0;
+                    color: #222;
+                  "
+                >
+                  How does the El Niño Southern Oscillation affect different
+                  types of cloud cover in the Maritime Continent and the Niño
+                  3.4 region?
+                </h3>
+                <p class="post-data" style="margin: 0">
+                  Second Year ENSO Project
+                </p>
+              </div>
+            </a>
+          </article>
+          <article
+            style="
+              background-color: #f6f6f6;
+              margin-bottom: 20px;
+              border-bottom: none;
+            "
+          >
+            <a
+              href="https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/wea.4069"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="text-decoration: none; color: inherit; display: block"
+            >
+              <div style="width: 100%; overflow: hidden">
+                <img
+                  src="images/side3_arctic_sea_ice.png"
+                  alt="Effects of Arctic Sea Ice Loss"
+                  style="
+                    width: 100%;
+                    height: 180px;
+                    object-fit: cover;
+                    display: block;
+                  "
+                />
+              </div>
+              <div style="padding: 12px 14px 16px 14px">
+                <h3
+                  style="
+                    font-size: 1.05rem;
+                    font-weight: bold;
+                    line-height: 1.3;
+                    margin: 0 0 8px 0;
+                    color: #222;
+                  "
+                >
+                  An ice-free Arctic: what could it mean for European weather?
+                </h3>
+                <p class="post-data" style="margin: 0">
+                  Another global factor potentially influencing UK weather
+                </p>
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
+    </main>
   </body>
-  
 </html>
