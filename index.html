@@ -873,27 +873,70 @@
               during storm Desmond from 4 to 6 December. Temperatures were also
               exceptionally mild through much of December and in late January,
               consistent with the theme of especially strong El Niños avoiding
-              the intraseasonal shift to colder, clearer weather. Figure 7 shows
+              the intraseasonal shift to colder, clearer weather (McCarthy et al., 2016). Figure 7 shows
               the precipitation and temperature anomalies across the UK and
               Ireland from December to February.
             </p>
 
-            <figure>
+            <figure id="fig7">
+              <div
+                class="fig-controls"
+                role="group"
+                aria-label="Choose a period for Figure 7"
+              >
+                <button
+                  type="button"
+                  aria-pressed="true"
+                  data-src="images/fig7/fig7_total.png"
+                  data-label="December to February average"
+                  data-alt="Maps of precipitation and temperature anomalies across the UK and Ireland, averaged from December to February"
+                >
+                  Winter average
+                </button>
+                <button
+                  type="button"
+                  aria-pressed="false"
+                  data-src="images/fig7/fig7_d.png"
+                  data-label="December 2015"
+                  data-alt="Maps of precipitation and temperature anomalies across the UK and Ireland for December 2015"
+                >
+                  December
+                </button>
+                <button
+                  type="button"
+                  aria-pressed="false"
+                  data-src="images/fig7/fig7_j.png"
+                  data-label="January 2016"
+                  data-alt="Maps of precipitation and temperature anomalies across the UK and Ireland for January 2016"
+                >
+                  January
+                </button>
+                <button
+                  type="button"
+                  aria-pressed="false"
+                  data-src="images/fig7/fig7_f.png"
+                  data-label="February 2016"
+                  data-alt="Maps of precipitation and temperature anomalies across the UK and Ireland for February 2016"
+                >
+                  February
+                </button>
+              </div>
               <img
-                src="images/fig7_2015_precip_temp.png"
-                alt="Map of precipitation and temperature anomalies across the UK and Ireland from December to February"
+                src="images/fig7/fig7_total.png"
+                alt="Maps of precipitation and temperature anomalies across the UK and Ireland, averaged from December to February"
               />
               <figcaption>
                 <strong>Figure 7: (a)</strong> Precipitation and
                 <strong>(b)</strong> temperature anomalies across the UK and
-                Ireland.
+                Ireland (<span id="fig7-view">December to February average</span
+                >).
                 <span class="cap-line"
                   >The unusually wet and mild conditions are clearly visible.
                   The north-west of the UK was severely affected by excess
                   rainfall, whereas the south of England saw the greatest
                   temperature increases above average. Broken down by month,
                   both anomalies were strongest in December, coinciding with the
-                  peak Niño3 warming (McCarthy et al., 2016).</span
+                  peak Niño3 warming (Met Office, 2026).</span
                 >
               </figcaption>
             </figure>
@@ -1060,5 +1103,26 @@
         </div>
       </div>
     </main>
+
+    <script>
+      const fig7 = document.getElementById("fig7");
+      const fig7Img = fig7.querySelector("img");
+      const fig7Label = document.getElementById("fig7-view");
+      const fig7Buttons = fig7.querySelectorAll(".fig-controls button");
+
+      fig7Buttons.forEach(function (button) {
+        button.addEventListener("click", function () {
+          fig7Img.src = button.dataset.src;
+          fig7Img.alt = button.dataset.alt;
+          fig7Label.textContent = button.dataset.label;
+          fig7Buttons.forEach(function (other) {
+            other.setAttribute(
+              "aria-pressed",
+              other === button ? "true" : "false",
+            );
+          });
+        });
+      });
+    </script>
   </body>
 </html>
