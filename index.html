@@ -526,6 +526,13 @@
             </h2>
             <p class="post-data">
               Published 14 October 2026 | 11538036, The University of Manchester
+              | Format based on
+              <a
+                href="https://codepen.io/AndyCormack/pen/bdNgdX"
+                target="_blank"
+                rel="noopener noreferrer"
+                >BBC News Clone</a
+              >
             </p>
             <figure id="fig1">
               <img
@@ -543,6 +550,31 @@
               </figcaption>
             </figure>
 
+            <div
+              class="jump-menu"
+              role="navigation"
+              aria-label="Jump to a section"
+            >
+              <div class="jump-title">Jump to a section</div>
+              <ul>
+                <li>
+                  <a href="#what-is-el-nino">What Actually Is El Niño?</a>
+                </li>
+                <li>
+                  <a href="#what-to-expect">What to Expect This Winter</a>
+                </li>
+                <li>
+                  <a href="#recent-el-nino-events"
+                    >Recent El Niño Events: Forecasts Vs Reality for 2023/24 and
+                    2015/16</a
+                  >
+                </li>
+                <li><a href="#prepare">How to Prepare This Winter</a></li>
+                <li><a href="#ai-statement">AI Statement</a></li>
+                <li><a href="#references">Reference list</a></li>
+              </ul>
+            </div>
+
             <p>
               A strong El Niño, a phase of the naturally occurring El
               Niño-Southern Oscillation (ENSO) climate cycle caused by warming
@@ -558,7 +590,7 @@
             </p>
             <hr />
 
-            <h3>What Actually Is El Niño?</h3>
+            <h3 id="what-is-el-nino">What Actually Is El Niño?</h3>
             <p>
               El Niño is the warm phase of a naturally occurring climate cycle
               known as the El Niño-Southern Oscillation (ENSO). Caused by
@@ -593,14 +625,13 @@
             <p>
               The ENSO cycle depends on wind patterns and sea-surface
               temperatures (SSTs) across the tropical Pacific Ocean, as
-              illustrated in <a href="#fig2">Figure 2</a>. Under normal
-              conditions, trade winds blow from east to west, pushing warm
-              surface water towards Australia and Indonesia. During an El Niño
-              event, atmospheric pressure shifts cause these winds to weaken and
-              sometimes even reverse direction, allowing warm water to move back
-              eastward across the Pacific towards South America instead. This
-              change in ocean surface heat alters atmospheric convection,
-              driving global weather disruptions (<a
+              illustrated in <a href="#fig2">Figure 2</a>. Normally, trade winds
+              blow from east to west, pushing warm surface water towards
+              Australia and Indonesia. During El Niño, atmospheric pressure
+              shifts cause these winds to weaken or reverse direction, allowing
+              warm water to move eastward across the Pacific towards South
+              America. This change in ocean surface heat alters atmospheric
+              convection, driving global weather disruptions (<a
                 href="https://worldoceanreview.com/en/wor-5/climate-change-threats-and-natural-hazards/coping-with-natural-hazards/how-el-nino-forms/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -698,8 +729,8 @@
 
             <p>
               Recent measurements show that monthly average SSTs in the Niño3
-              region reached +3.25°C, representing the highest recorded anomaly
-              for an El Niño season (<a
+              region reached +3.25°C, the highest recorded anomaly for an El
+              Niño season (<a
                 href="https://psl.noaa.gov/enso/dashboard.html"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -707,8 +738,7 @@
               >). NOAA, the USA's National Oceanic and Atmospheric
               Administration, forecasts this ocean warming to peak in December,
               as shown in <a href="#fig5">Figure 5</a>, raising the likelihood
-              that the most active UK storm period will occur during early
-              winter.
+              of early winter being the most active UK storm period.
             </p>
 
             <figure id="fig5">
@@ -733,38 +763,34 @@
               </figcaption>
             </figure>
 
-            <h3>What to Expect This Winter</h3>
+            <h3 id="what-to-expect">What to Expect This Winter</h3>
             <p>
               Pacific Ocean SST observations indicate a strong El Niño
               developing, peaking around December 2026. Between six and three
               months before peak ocean warming, forecast error margins halve,
-              giving meteorologists increasing confidence in their predictions
-              as winter approaches.
+              increasing confidence in predictions as winter approaches.
             </p>
             <p>
               However, predicting specific UK weather impacts remains
               challenging because of interference from other atmospheric
-              processes and the small scale of the UK compared to the globe as a
-              whole [ATMOS COMPLICATIONS LINK]. Also, the unprecedented Pacific
-              warming in 2026 means there are few historical comparisons to
-              guide predictions.
+              processes and the small scale of the UK compared to the entire
+              globe. Also, the unprecedented 2026 Pacific warming means there
+              are few historical comparisons to guide predictions.
             </p>
 
             <p>
               From early winter (October to December), forecasts indicate raised
-              odds of low pressure dominated by westerly winds [COMPLICATIONS
-              LINK - NOA]. This makes frequent storms and heavy rainfall likely
-              across the UK.
+              odds of low pressure dominated by westerly winds. This makes
+              frequent storms and heavy rainfall likely across the UK.
             </p>
             <p>
               By late winter (January and February), predictions become less
               reliable. Generally, El Niño events experience a shift to high
-              pressure conditions, bringing calm, cold weather to the UK.
-              However, especially strong El Niño events sometimes avoid this
-              pattern. During winter 2023/24, stormy weather in December gave
-              way to a calm January, followed by record warmth and rainfall in
-              February. This shows how difficult accurately predicting these
-              events can be (<a
+              pressure conditions, bringing calm, cold weather. However,
+              especially strong El Niño events sometimes avoid this pattern.
+              During winter 2023/24, a stormy December gave way to a calm
+              January, followed by record warmth and rainfall in February. This
+              shows how difficult accurately predicting these events can be (<a
                 href="https://rmets.onlinelibrary.wiley.com/doi/10.1002/asl.70006"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -773,7 +799,10 @@
             </p>
             <hr />
 
-            <h3>Last Time: Forecast Vs Reality for the 2023/24 El Niño</h3>
+            <h3 id="recent-el-nino-events">
+              Recent El Niño Events: Forecasts Vs Reality for 2023/24 and
+              2015/16
+            </h3>
             <p>
               The 2023/24 winter is a good case study to evaluate effectiveness
               of seasonal models at predicting UK El Niño impacts. Pacific Ocean
@@ -784,9 +813,9 @@
             <p>
               The Met Office winter predictions, shown in
               <a href="#fig6">Figure 6</a>, correctly anticipated raised odds of
-              mild and wet conditions, with winter temperatures and total
-              rainfall landing in the top 20% of historical observations,
-              matching predictions.
+              mild and wet conditions. Winter temperatures and total rainfall
+              landed in the top 20% of historical observations, matching
+              predictions.
             </p>
             <figure id="fig6">
               <img
@@ -818,14 +847,14 @@
               </figcaption>
             </figure>
             <p>
-              However, the winter forecast missed key local details during late
-              winter. The frequent storminess of the early winter was well
-              predicted, with seven named storms between late October and early
-              January. However, February was especially wet and mild, which
-              wasn't well forecast. Low-pressure [NOA LINK] storm systems
-              travelled further south across the Atlantic than models expected,
-              causing the warmest ever February for England and Wales alongside
-              the wettest February in southern England.
+              However, the winter forecast missed local details during late
+              winter. The frequently stormy early winter was well predicted,
+              with seven named storms between late October and early January.
+              However, February was especially wet and mild, which wasn't well
+              forecast. Storm systems travelled further south across the
+              Atlantic than models expected, causing the warmest ever February
+              for England and Wales alongside the wettest February in southern
+              England.
             </p>
             <p>
               The late-season deviations happened because of complicated and
@@ -843,9 +872,8 @@
               The UK was severely impacted. Flooding, transport disruption,
               power outages, and agricultural damage all occurred due to high
               rainfall and windspeeds, with nine named storms, shown in
-              <a href="#table2">Table 2</a>, across the extended winter season
-              (October to March) only beaten by 2015/16, another strong El Niño
-              year (<a
+              <a href="#table2">Table 2</a>, from October to March only beaten
+              by 2015/16, another strong El Niño year (<a
                 href="supporting_documents/Scientific Report UK Storms.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -907,10 +935,11 @@
               Although 2023/24 is the most recent strong El Niño, ocean warming
               in the Niño3 region averaged 1.7°C from December to February
               (DJF). In contrast, 2026 has recorded a September monthly anomaly
-              of 3.25°C, with values expected to peak in December [FIG5 link].
-              Due to this extreme warming, the 2015/16 event may be a more
-              relevant comparison, with a higher peak Niño3 warming of around
-              2.5°C, as shown in <a href="#fig7">Figure 7</a>.
+              of 3.25°C, with
+              <a href="#fig5">values expected to peak in December</a>. Due to
+              this extreme warming, the 2015/16 event may be a more relevant
+              comparison, with a higher peak Niño3 warming of around 2.5°C, as
+              shown in <a href="#fig7">Figure 7</a>.
             </p>
             <figure id="fig7">
               <img
@@ -1052,7 +1081,9 @@
             </p>
             <hr />
 
-            <h3>How to Prepare for El Niño in the UK This Winter</h3>
+            <h3 id="prepare">
+              How to Prepare for El Niño in the UK This Winter
+            </h3>
             <p>
               Severe winter weather brings widespread risks of flooding,
               structural wind damage and transport disruption to the UK. To help
@@ -1128,7 +1159,130 @@
             </ul>
             <hr />
 
-            <h3>Reference list</h3>
+            <h3 id="ai-statement">AI Statement</h3>
+            <p>
+              I used AI only for the purposes permitted within the assessment
+              guidance (e.g. spelling, grammar, accessibility or formatting
+              support). I have not used or submitted any AI-generated content or
+              code in my submission.
+            </p>
+            <hr />
+
+            <h3 id="references">Reference list</h3>
+
+            <p class="reference" id="ref-bbc-2016">
+              BBC News (2016)
+              <em>Storm Desmond 'overwhelmed Cockermouth flood defences'</em>.
+              Available at:
+              <a
+                href="https://www.bbc.co.uk/news/uk-england-cumbria-36420312"
+                target="_blank"
+                rel="noopener noreferrer"
+                >https://www.bbc.co.uk/news/uk-england-cumbria-36420312</a
+              >
+              (Accessed: 01/11/2026).
+            </p>
+            <p class="reference" id="ref-redcross-2026">
+              British Red Cross (2026)
+              <em
+                >El Niño and the UK: How the 'Super' El Niño could affect
+                weather, flooding and food prices</em
+              >. Available at:
+              <a
+                href="https://www.redcross.org.uk/stories/disasters-and-emergencies/uk/el-nino-and-the-uk"
+                target="_blank"
+                rel="noopener noreferrer"
+                >https://www.redcross.org.uk/stories/disasters-and-emergencies/uk/el-nino-and-the-uk</a
+              >
+              (Accessed: 02/11/2026).
+            </p>
+            <p class="reference" id="ref-cormack">
+              Cormack, A. <em>BBC News Clone</em>. CodePen. Available at:
+              <a
+                href="https://codepen.io/AndyCormack/pen/bdNgdX"
+                target="_blank"
+                rel="noopener noreferrer"
+                >https://codepen.io/AndyCormack/pen/bdNgdX</a
+              >
+              (Accessed: 13/10/2026).
+            </p>
+            <p class="reference" id="ref-wor-2017">
+              <em>How El Niño forms</em> (2017). World Ocean Review. Available
+              at:
+              <a
+                href="https://worldoceanreview.com/en/wor-5/climate-change-threats-and-natural-hazards/coping-with-natural-hazards/how-el-nino-forms/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >https://worldoceanreview.com/en/wor-5/climate-change-threats-and-natural-hazards/coping-with-natural-hazards/how-el-nino-forms/</a
+              >
+              (Accessed: 20/11/2025).
+            </p>
+            <p class="reference" id="ref-ineson-2026">
+              Ineson, S., et al. (2026). ‘Prediction of European Winter 2023/24:
+              Influence of a Strong El Niño’
+              <em>Atmospheric Science Letters</em>, 27 (2),
+              <a
+                href="https://doi.org/10.1002/asl.70006"
+                target="_blank"
+                rel="noopener noreferrer"
+                >https://doi.org/10.1002/asl.70006</a
+              >.
+            </p>
+            <p class="reference" id="ref-kew-2024">
+              Kew, S. F., et al. (2024).
+              <em
+                >Autumn and Winter storms over UK and Ireland are becoming
+                wetter due to climate change</em
+              >: Centre for Environmental Policy.
+              <a
+                href="https://doi.org/10.25561/111577"
+                target="_blank"
+                rel="noopener noreferrer"
+                >https://doi.org/10.25561/111577</a
+              >.
+            </p>
+            <p class="reference" id="ref-mccarthy-2016">
+              McCarthy, M., et al. (2016). ‘The meteorology of the exceptional
+              winter of 2015/2016 across the UK and Ireland’
+              <em>Weather</em>, 71 (12), pp. 305-313.
+              <a
+                href="https://doi.org/10.1002/wea.2823"
+                target="_blank"
+                rel="noopener noreferrer"
+                >https://doi.org/10.1002/wea.2823</a
+              >.
+            </p>
+            <p class="reference" id="ref-metoffice-2026">
+              Met Office (2026) <em>UK actual and anomaly maps</em>. Available
+              at:
+              <a
+                href="https://www.metoffice.gov.uk/research/climate/maps-and-data/uk-actual-and-anomaly-maps"
+                target="_blank"
+                rel="noopener noreferrer"
+                >https://www.metoffice.gov.uk/research/climate/maps-and-data/uk-actual-and-anomaly-maps</a
+              >
+              (Accessed: 02/11/2026).
+            </p>
+            <p class="reference" id="ref-noaa-2026a">
+              NOAA (2026a) <em>El Niño Index Dashboard</em>. Available at:
+              <a
+                href="https://psl.noaa.gov/enso/dashboard.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                >https://psl.noaa.gov/enso/dashboard.html</a
+              >
+              (Accessed: 31/10/2026).
+            </p>
+            <p class="reference" id="ref-noaa-2026b">
+              NOAA (2026b) <em>Map of ENSO regions</em>. Available at:
+              <a
+                href="https://psl.noaa.gov/enso/img/oceanic-indices-map.gif"
+                target="_blank"
+                rel="noopener noreferrer"
+                >https://psl.noaa.gov/enso/img/oceanic-indices-map.gif</a
+              >
+              (Accessed: 31/10/2026).
+            </p>
           </article>
         </div>
         <div class="sidebar">
@@ -1440,7 +1594,7 @@
                     color: #222;
                   "
                 >
-                  Storm Desmmond 'overwhelmed Cockermouth flood defences'
+                  Storm Desmond 'overwhelmed Cockermouth flood defences'
                 </h3>
                 <p class="post-data" style="margin: 0">
                   Real BBC article on the 2015/16 floods in Cumbria, UK
@@ -1529,7 +1683,8 @@
                     color: #222;
                   "
                 >
-                  The meteorology of the exceptional winter of 2015/2016 across the UK and Ireland
+                  The meteorology of the exceptional winter of 2015/2016 across
+                  the UK and Ireland
                 </h3>
                 <p class="post-data" style="margin: 0">
                   Learn about the 2015/16 El Niño event in more detail
